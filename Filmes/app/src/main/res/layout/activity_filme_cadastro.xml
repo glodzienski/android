@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FilmeCadastro">
+
+    <TextView
+        android:id="@+id/lblCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastro "
+        tools:textAlignment="center"
+        tools:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/lblNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome:"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/lblGenero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gênero:"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edtGenero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/lblAno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ano:"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edtAno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/lblFormato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Formato:"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edtFormato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar" />
+
+</LinearLayout>
